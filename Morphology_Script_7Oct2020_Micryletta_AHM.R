@@ -19,7 +19,7 @@ library(cowplot)
 library(car)
 
 # Load raw data of all mature individuals
-dataraw<- SupplementalTable2_MicrylettaMature_6Oct20_Code
+dataraw<- SupplementalTable2_MicrylettaMature_7Oct20
 
 #Mann-Whitney U Test on sexual dimorphism in raw data
 wilcox.test(SVL~Sex,data=dataraw)
